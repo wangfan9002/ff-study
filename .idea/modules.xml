@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-message/core-message.iml" filepath="$PROJECT_DIR$/core-message/core-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-message-1/core-message-1.iml" filepath="$PROJECT_DIR$/core-message-1/core-message-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-message-2/core-message-2.iml" filepath="$PROJECT_DIR$/core-message-2/core-message-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ff-study.iml" filepath="$PROJECT_DIR$/ff-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-noparent/springboot-noparent.iml" filepath="$PROJECT_DIR$/springboot-noparent/springboot-noparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-api/study-api.iml" filepath="$PROJECT_DIR$/study-api/study-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-dubbo-consumer/study-dubbo-consumer.iml" filepath="$PROJECT_DIR$/study-dubbo-consumer/study-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-dubbo-provider/study-dubbo-provider.iml" filepath="$PROJECT_DIR$/study-dubbo-provider/study-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-log/study-log.iml" filepath="$PROJECT_DIR$/study-log/study-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-springboot/study-springboot.iml" filepath="$PROJECT_DIR$/study-springboot/study-springboot.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright (c) 2014 杭州数梦工场科技有限公司
+  -->
+
+<configuration>
+
+    <property name="APP_NAME" value="ff-learn-log" />
+
+    <property name="level" value="${log.level:-info}" />
+    <property name="tag" value="${tags:-default}" />
+    <property name="the3rdLevel" value="${the3rdLevel:-info}" />
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date %level{5} [%C:%M:%L] : [%X{traceId}] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+    <logger name="org.springframework" level="${the3rdLevel}" />
+</configuration>
